@@ -1,0 +1,21 @@
+1. What is the command to invoke the slack-request function?
+  a. Via curl
+  
+  b. Via faas-cli
+
+
+2. What is the output you see when you invoke the slack-request function?
+
+
+3. What is the command to invoke the slack-interactive function?
+  a. Via curl
+  
+  b. Via faas-cli
+
+
+4. What is the output you see when you invoke the slack-interactive function?
+
+
+5. How would you pass different arguments to the functions?
+
+6. How would you change the slack-interactive function to react to different inputs?
