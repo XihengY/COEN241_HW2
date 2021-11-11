@@ -1,1 +1,8 @@
+screenshot1_figlet.png is the screenshot of invoking the figlet function.
 
+screenshot2_log.png is the screenshot of running the command: 
+  sudo journalctl -u faasd --lines 40
+
+screenshot3_gateway.png is the screenshot of the OpenFaas gateway after I deploy figlet, slack-handler and slack-interactive functions. 
+
+screenshot4_invoking.png is the screenshot of invoking slack-request and slack-interactive functions. 
