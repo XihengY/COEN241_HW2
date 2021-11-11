@@ -1,8 +1,13 @@
-screenshot1_figlet.png is the screenshot of invoking the figlet function.
+1. screenshot1_figlet.png is the screenshot of invoking the figlet function as the command is: 
+  echo "Hello, Xiheng" | faas-cli invoke figlet
 
-screenshot2_log.png is the screenshot of running the command: 
+2. screenshot2_log.png is the screenshot of running the command: 
   sudo journalctl -u faasd --lines 40
 
-screenshot3_gateway.png is the screenshot of the OpenFaas gateway after I deploy figlet, slack-handler and slack-interactive functions. 
+3. screenshot3_gateway.png is the screenshot of the OpenFaas gateway after I deploy figlet, slack-handler and slack-interactive functions. 
 
-screenshot4_invoking.png is the screenshot of invoking slack-request and slack-interactive functions. 
+4. screenshot4_invoking.png is the screenshot of invoking slack-interactive and slack-request functions. 
+To invoke slack-interactive, the command is: 
+  echo '{"Hello":"COEN241"}' | faas-cli invoke slack-interactive
+To invoke slack-request, the command is: 
+  echo '' | faas-cli invoke slack-request
