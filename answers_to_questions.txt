@@ -33,5 +33,11 @@ I would invoke the slack-interactive function with json string like '{"Hello":"C
 
 6. How would you change the slack-interactive function to react to different inputs?
 
-
+I would change the strings of different keys to the values in the response dictionary. 
+For example, change 
+  "author_link": "https://github.com/XihengY/COEN241_HW2",
+to
+  "author_link": response['author_link'],
+ Therefore, when I input '{"author_link":"hello"}', the output should be '{"author_link":"hello"}'. 
+ 
 
