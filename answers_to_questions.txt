@@ -28,6 +28,10 @@
 
 5. How would you pass different arguments to the functions?
 
+I would invoke the slack-interactive function with json string like '{"Hello":"COEN241"}'. And the slack-request function does not need arguements. 
 
 
 6. How would you change the slack-interactive function to react to different inputs?
+
+
+
