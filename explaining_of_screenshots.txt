@@ -5,6 +5,9 @@
   sudo journalctl -u faasd --lines 40
 
 3. screenshot3_gateway.png is the screenshot of the OpenFaas gateway after I deploy figlet, slack-handler and slack-interactive functions. 
+Run the command:
+  sudo cat /var/lib/faasd/secrets/basic-auth-password | faas-cli login --username admin --password-stdin
+to get the gateway ui url.
 
 4. screenshot4_invoking.png is the screenshot of invoking slack-interactive and slack-request functions. 
 To invoke slack-interactive, the command is: 
